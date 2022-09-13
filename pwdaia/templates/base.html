@@ -43,7 +43,7 @@
          <div class="header">
             <div class="container">
                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-9 col-sm-9">
+                  <div class="col-xl-6 col-lg-6 col-md-9 col-sm-9">
                      <nav class="navigation navbar navbar-expand-md navbar-dark ">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -60,10 +60,13 @@
                                  <a class="nav-link" href="{% url 'servicios' %}">Servicios</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#">Clientes</a>
+                                 <a class="nav-link" href="{% url 'clientes' %}">Clientes</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#">Contacto</a>
+                                 <a class="nav-link" href="{% url 'contacto' %}">Contacto</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="../admin/">Login</a> 
                               </li>
                            </ul>
                         </div>
@@ -73,16 +76,16 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="{% url 'home' %}"><img src="{% static 'images/logo_daia.jpeg' %}" alt="#" /></a>
+                              <a href="{% url 'home' %}"><img src="{% static 'images/logo_daia.jpeg' %}" max width="130px" alt="#" /></a>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
                      <ul class="email">
-                        <li><a href="#">Cel. +54 3624 702697</a></li>
-                        <li><a href="#">angelesdaiana17@gmail.com</a></li>
-                        <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        <li><a href="#">Movil +54 (362)4702697</a></li>
+                        <!--li><a href="#">angelesdaiana17@gmail.com</a></li-->
+                        <!--li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li-->
                      </ul>
                   </div>
                </div>

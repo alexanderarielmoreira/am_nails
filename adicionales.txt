@@ -1,3 +1,31 @@
-Listos vides 1 y 2;
-Video 3: ...;
+Pasos p/ crear apps:
+
+1. python manage.py startapp <name_app>
+
+2. Cortar la nueva carpeta de la app y pegarla en 'apps'
+
+3. Ir a apps.py y agregar en name='apps.name_app'
+
+4. Ir a views.py y crear la funcion:
+    def clientes(request):
+        return render(request, 'clientes.html', {})
+
+5. Ir a urls.py (de la app) y agregar: 
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.name_view, name='name'),
+    ]
+
+6. Ir a urls.py (del proyecto) y agregar:
+path('name/', include('apps.name_app.urls')),
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+Super user:
+
+user: angelesdaiana17@gmail.com
+password: uñasrosatouluse951!
+
 
