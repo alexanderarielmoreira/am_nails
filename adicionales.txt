@@ -28,4 +28,9 @@ Super user:
 user: angelesdaiana17@gmail.com
 password: uñasrosatouluse951!
 
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+P/ forms ver clases N° 24 y 25 de Curso de Django en Platzi
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 
